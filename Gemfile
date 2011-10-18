@@ -10,6 +10,7 @@ gem "decent_exposure"
 gem "haml"
 gem "jquery-rails"
 gem "mongoid", git: "git://github.com/mongoid/mongoid.git"
+gem "rack", "1.3.3"
 gem "unicorn"
 
 group :assets do
