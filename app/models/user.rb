@@ -7,6 +7,8 @@ class User
   field :first_name, type: String
   field :handle, type: String
   field :last_name, type: String
+  field :password, type: String
+  attr_protected :password
 
   belongs_to :band
   has_many :followings, validate: false
